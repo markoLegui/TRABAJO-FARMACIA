@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Salud Plus</title>
+    <link rel="stylesheet" href="styles-farmacia.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Farmacia Salud Plus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Tu salud, nuestra prioridad</h2>
+        <p>Encuentra medicamentos, suplementos y cuidado personal con nosotros.</p>
+        <a href="#productos" class="button">Ver Productos</a>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>Productos Destacados</h2>
+        <div class="grid">
+            <div class="producto">
+                <img src="medicamento1.jpg" alt="Medicamento 1">
+                <h3>Paracetamol</h3>
+                <p>$5.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="vitaminas.jpg" alt="Vitaminas">
+                <h3>Multivitamínico</h3>
+                <p>$10.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="crema.jpg" alt="Crema hidratante">
+                <h3>Crema Hidratante</h3>
+                <p>$7.00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Asesoramiento farmacéutico</li>
+            <li>Entrega a domicilio</li>
+            <li>Medición de presión arterial gratuita</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Farmacia Salud Plus. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
